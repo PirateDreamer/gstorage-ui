@@ -1,8 +1,8 @@
 import  {lazy} from 'react'
 import { Navigate } from 'react-router-dom'
 
-const Home = lazy(() => import('../views/home'))
-const Login = lazy(() => import('../views/login'))
+const Home = lazy(() => import('../pages/home'))
+const Login = lazy(() => import('../pages/login'))
 
 const routes = [
     {
